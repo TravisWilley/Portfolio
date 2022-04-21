@@ -8,7 +8,7 @@ function Directory(props) {
       <ListItem
         title={item.name}
         subtitle={item.description}
-        leftAvatar={{ source: require('') }}
+        leftAvatar={{ source: item.image }}
       />
     );
   };
