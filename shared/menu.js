@@ -6,6 +6,7 @@ export const MENU = [
     description: 'Just a Hamburger Patty on our homemade Sesame Bun',
     price: '$6.99',
     category: 'Burgers',
+    backgroundColor: 'tan',
   },
 
   {
@@ -66,7 +67,7 @@ export const MENU = [
   {
     id: 7,
     name: 'Hot Wings',
-    image: '',
+    image: require('../components/images/wings.webp'),
     description: 'A dozen wings tossed in your choice of sauce',
     price: '$15.99',
     category: 'Entrees',
